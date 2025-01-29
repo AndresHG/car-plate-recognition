@@ -1,0 +1,22 @@
+# General .gitignore stuff
+.idea/
+.DS_Store/
+
+# This is specific to this project but should not been taken into consideration
+automatic-number-plate-recognition.ipynb
+poetry.lock
+pyproject.toml
+tensorflow_2.6-hp5.yml
+video_detection.py~
+car-plate-recognition-assets.zip
+
+# Output videos
+sample-detection-cpu.mp4
+sample-detection-gpu.mp4
+
+# Folders that shouldn't be there
+yolov5/
+car-plate-recognition/
+object_detection/
+output_videos_v1/
+data/
