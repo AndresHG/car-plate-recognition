@@ -12,16 +12,22 @@ practical experience and trying some stuff.
 
 ## Instructions
 
-First of all, Yolo is here stored as a zip file (which is 
-not a good practice at all), but I just wanted to simplify
+First of all, Yolo folder and data files are saved in
+Google Drive due to size concerns. Let's download them
+from the link and move ahead. This is 
+not a good practice at all, but I just wanted to simplify
 the process as much as possible.
 
-Let's unzip it:
+Link with the data: [HERE](https://drive.google.com/file/d/1FR7wqnh1Y0wcnq3HvoNykbkSnITmb1uW/view?usp=drive_link)
+
+Please put the zip file in the root folder of the project
+(at the same level of `video_detection.py` file) and the
+let's proceed unzipping the file:
 
 ```shell
 # If you don't have unzip already installed, you can run:
 # sudo apt-get install unzip
-unzip yolov5.zip
+unzip car-plate-recognition-assets.zip
 ```
 
 Now, let's install the environment. This one is based on
